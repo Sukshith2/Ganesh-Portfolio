@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GANESH</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+</head>
+<body>
+
+<!-- Navbar -->
+ <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+    <div class="container">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve"><path style="fill:#939393" d="M493.137 277.558H18.863c-5.953 0-10.779-4.826-10.779-10.779v-21.558c0-5.953 4.826-10.779 10.779-10.779h474.274c5.953 0 10.779 4.826 10.779 10.779v21.558c0 5.953-4.826 10.779-10.779 10.779z"/><path style="fill:#5b5b5b" d="M503.916 256v10.779c0 5.953-4.826 10.779-10.779 10.779H18.863c-5.953 0-10.779-4.826-10.779-10.779V256h495.832z"/><path style="fill:#004859" d="M169.768 126.653v258.695c0 11.906-9.651 21.558-21.558 21.558h-21.558c-11.906 0-21.558-9.651-21.558-21.558v-64.674c0 11.906-9.651 21.558-21.558 21.558H61.979c-11.906 0-21.558-9.651-21.558-21.558V191.326c0-11.906 9.651-21.558 21.558-21.558h21.558c11.906 0 21.558 9.651 21.558 21.558v-64.674c0-11.906 9.651-21.558 21.558-21.558h21.558c11.906.001 21.557 9.652 21.557 21.559zm280.253 43.115h-21.558c-11.906 0-21.558 9.651-21.558 21.558v-64.674c0-11.906-9.651-21.558-21.558-21.558h-21.558c-11.906 0-21.558 9.651-21.558 21.558v258.695c0 11.906 9.651 21.558 21.558 21.558h21.558c11.906 0 21.558-9.651 21.558-21.558v-64.674c0 11.906 9.651 21.558 21.558 21.558h21.558c11.906 0 21.558-9.651 21.558-21.558V191.326c0-11.906-9.652-21.558-21.558-21.558z"/><path style="fill:#007dbc" d="M61.979 309.895c-11.906 0-21.558-9.651-21.558-21.558v-97.011c0-11.906 9.651-21.558 21.558-21.558h21.558v118.568c0 11.907-9.652 21.559-21.558 21.559zm86.232-21.558V105.095h-21.558c-11.906 0-21.558 9.651-21.558 21.558v161.684c0 11.906 9.651 21.558 21.558 21.558 11.906 0 21.558-9.652 21.558-21.558zm237.136 0V105.095h-21.558c-11.906 0-21.558 9.651-21.558 21.558v161.684c0 11.906 9.651 21.558 21.558 21.558s21.558-9.652 21.558-21.558zm64.674 0V169.768h-21.558c-11.906 0-21.558 9.651-21.558 21.558v97.011c0 11.906 9.651 21.558 21.558 21.558s21.558-9.652 21.558-21.558z"/><path style="fill:#fff" d="M148.211 142.282v1.078a8.084 8.084 0 0 1-16.168 0v-1.078a8.084 8.084 0 0 1 16.168 0zm-8.085 19.402a8.084 8.084 0 0 0-8.084 8.084v43.116a8.084 8.084 0 0 0 16.168 0v-43.116a8.084 8.084 0 0 0-8.084-8.084zm-64.673 32.337a8.084 8.084 0 0 0-8.084 8.084v1.078a8.084 8.084 0 0 0 16.168 0v-1.078a8.085 8.085 0 0 0-8.084-8.084zm0 27.486a8.084 8.084 0 0 0-8.084 8.084V256a8.084 8.084 0 0 0 16.168 0v-26.408a8.085 8.085 0 0 0-8.084-8.085zm366.484-27.486a8.084 8.084 0 0 0-8.084 8.084v1.078a8.084 8.084 0 0 0 16.168 0v-1.078a8.085 8.085 0 0 0-8.084-8.084zm-64.674-32.337a8.084 8.084 0 0 0-8.084 8.084v43.116a8.084 8.084 0 0 0 16.168 0v-43.116a8.084 8.084 0 0 0-8.084-8.084zm0-27.486a8.084 8.084 0 0 0-8.084 8.084v1.078a8.084 8.084 0 0 0 16.168 0v-1.078a8.084 8.084 0 0 0-8.084-8.084zm64.674 87.309a8.084 8.084 0 0 0-8.084 8.084V256a8.084 8.084 0 0 0 16.168 0v-26.408a8.085 8.085 0 0 0-8.084-8.085z"/><path d="M493.137 226.358h-13.474v-35.032c0-16.344-13.297-29.642-29.642-29.642h-21.558a29.475 29.475 0 0 0-13.474 3.243v-38.275c0-16.344-13.297-29.642-29.642-29.642h-21.558c-16.345 0-29.642 13.298-29.642 29.642v99.705H177.853v-99.705c0-16.344-13.297-29.642-29.642-29.642h-21.558c-16.345 0-29.642 13.298-29.642 29.642v38.275a29.456 29.456 0 0 0-13.474-3.243H61.979c-16.345 0-29.642 13.298-29.642 29.642v35.032H18.863C8.463 226.358 0 234.82 0 245.221v21.558c0 10.401 8.463 18.863 18.863 18.863h13.474v35.032c0 16.344 13.297 29.642 29.642 29.642h21.558c4.848 0 9.429-1.171 13.474-3.243v38.275c0 4.851 1.178 9.428 3.253 13.474H78.147c-4.465 0-8.084 3.618-8.084 8.084s3.62 8.084 8.084 8.084h355.705c4.465 0 8.084-3.618 8.084-8.084s-3.62-8.084-8.084-8.084h-22.116a29.448 29.448 0 0 0 3.253-13.474v-38.275a29.456 29.456 0 0 0 13.474 3.243h21.558c16.345 0 29.642-13.298 29.642-29.642v-35.032h13.474c10.401 0 18.863-8.463 18.863-18.863v-21.558c0-10.401-8.463-18.863-18.863-18.863zM177.853 385.347v-99.705h156.295v99.705c0 4.851 1.178 9.428 3.253 13.474H174.6a29.448 29.448 0 0 0 3.253-13.474zm156.294-142.821v26.947H177.853v-26.947h156.294zM18.863 269.474a2.698 2.698 0 0 1-2.695-2.695v-21.558a2.698 2.698 0 0 1 2.695-2.695h13.474v26.947H18.863zm64.674 64.673H61.979c-7.43 0-13.474-6.044-13.474-13.474V191.326c0-7.43 6.044-13.474 13.474-13.474h21.558c7.43 0 13.474 6.044 13.474 13.474v129.347c0 7.431-6.044 13.474-13.474 13.474zm29.642 51.2V126.652c0-7.43 6.044-13.474 13.474-13.474h21.558c7.43 0 13.474 6.044 13.474 13.474v258.695c0 7.43-6.044 13.474-13.474 13.474h-21.558c-7.43 0-13.474-6.044-13.474-13.474zm250.61 13.474c-7.43 0-13.474-6.044-13.474-13.474V126.653c0-7.43 6.044-13.474 13.474-13.474h21.558c7.43 0 13.474 6.044 13.474 13.474V385.348c0 7.43-6.044 13.474-13.474 13.474h-21.558zm99.706-78.147c0 7.43-6.044 13.474-13.474 13.474h-21.558c-7.43 0-13.474-6.044-13.474-13.474V191.326c0-7.43 6.044-13.474 13.474-13.474h21.558c7.43 0 13.474 6.044 13.474 13.474v129.348zm32.337-53.895a2.698 2.698 0 0 1-2.695 2.695h-13.474v-26.947h13.474a2.698 2.698 0 0 1 2.695 2.695v21.557zM17.246 406.905a8.084 8.084 0 0 1-8.084 8.084H8.084c-4.465 0-8.084-3.618-8.084-8.084s3.62-8.084 8.084-8.084h1.078a8.084 8.084 0 0 1 8.084 8.084zm42.038 0a8.084 8.084 0 0 1-8.084 8.084h-1.078c-4.465 0-8.084-3.618-8.084-8.084s3.62-8.084 8.084-8.084H51.2a8.084 8.084 0 0 1 8.084 8.084zm410.678 0a8.084 8.084 0 0 1-8.084 8.084H460.8c-4.465 0-8.084-3.618-8.084-8.084s3.62-8.084 8.084-8.084h1.078a8.084 8.084 0 0 1 8.084 8.084zm42.038 0a8.084 8.084 0 0 1-8.084 8.084h-1.078c-4.465 0-8.084-3.618-8.084-8.084s3.62-8.084 8.084-8.084h1.078a8.084 8.084 0 0 1 8.084 8.084z"/></svg>       
+        <a href="#" class="navbar-brand">Gym</a>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="mx-auto"></div>
+            <ul class="navbar-nav justify-content-center">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link text-white">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#About" class="nav-link text-white">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Achivments" class="nav-link text-white">Achivments</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Gallery" class="nav-link text-white">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link text-white">contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+ </nav>
+ <!-- Banner Immage -->
+ <section id="home" style="height: 100vh; background: lightblue;">
+    <div class="banner-image w-100 vh-100 d-flex align-items-center">
+    <div class="container">
+    <div class="content">
+        <h1 class="text-white">Power <br> To Explore Gentalman</h1>
+    </div>
+    </div>
+
+  </div>
+</section>
+
+ 
+    <section id="About" class="section about_section mt-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="about_main">
+                    <div class="img_about">
+                        <img src="images/indianjusr.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-6">
+                <div class="about_discri">
+                    <h2 class="about_title"></h2>
+                    <p class="discrio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi eos ex a fugit quaerat maxime nam architecto expedita quo repellendus consequatur unde veniam, porro saepe ad culpa recusandae, laboriosam impedit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati expedita incidunt quos in et repellendus fugiat itaque nobis sequi ad ex, ut nesciunt quasi, sint vero vel, quae numquam asperiores.</p>
+                    <p class="discrio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati expedita incidunt quos in et repellendus fugiat itaque nobis sequi ad ex, ut nesciunt quasi, sint vero vel, quae numquam asperiores.</p>
+                </div>
+
+
+
+            </div>
+
+    </div>
+    </div>
+
+  </section>
+<section class="section count_sect">
+<div class="container">
+    <div class="circle" data-degree="20" data-color="#FFD700">
+        <h3 class="number">20</h3>
+        <h4>Gold</h4>
+    </div>
+    <div class="circle" data-degree="58" data-color="#C0C0C0">
+        <h3 class="number">42</h3>
+        <h4>Silver</h4>
+    </div>
+    <div class="circle" data-degree="95" data-color="#CD7F32">
+        <h3 class="number">38</h3>
+        <h4>Bronze</h4>
+    </div>
+</div>
+</section>
+
+<section class="section achivments_section" id="Achivments">
+    <div class="container">
+        <div class="achivment_title">
+            <h2>Achivments</h2>
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">STATE LEVEL</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">NATIONAL LEVEL </button>
+                </li>
+            </ul>
+              <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                    <div class="container">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, neque natus eligendi ratione, dolorem aliquam cupiditate enim voluptas sapiente suscipit eaque minus nulla sequi quasi a libero obcaecati, magni ipsa.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni amet officiis minima repudiandae nam, numquam voluptatem quasi nemo iure praesentium earum quis, et inventore veritatis in cupiditate excepturi, dolorem enim.
+
+                <div class="row mt-3">
+                    <div class="col-lg-6 mt-3">
+                        <div class="achiv_inner1">
+                                <img src="images/State1.jpg" alt="">   
+                        </div>
+                    </div>
+                    <div class="col-lg-6 conte_leve">
+                        <div class="achiv_col">
+                            <h3></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas inventore officia, at quae quo voluptatibus voluptas consequuntur rerum nostrum quod dolor deleniti non expedita est corrupti amet aliquid aspernatur optio.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-6 conte_leve">
+                        <div class="achiv_col">
+                            <h3></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas inventore officia, at quae quo voluptatibus voluptas consequuntur rerum nostrum quod dolor deleniti non expedita est corrupti amet aliquid aspernatur optio.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mt-3">
+                        <div class="achiv_inner3">
+                            <img src="images/state3.jpg" alt="">
+                        </div>
+                    </div>
+                  
+
+
+
+                    <div class="col-lg-6 mt-3">
+                        <div class="achiv_inner2">
+                                <img src="images/state2.jpg" alt="">   
+                        </div>
+                    </div>
+                    <div class="col-lg-6 conte_leve">
+                        <div class="achiv_col">
+                            <h3></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas inventore officia, at quae quo voluptatibus voluptas consequuntur rerum nostrum quod dolor deleniti non expedita est corrupti amet aliquid aspernatur optio.</p>
+                        </div>
+                    </div>
+
+                   
+
+                    <div class="col-lg-6 conte_leve">
+                        <div class="achiv_col">
+                            <h3></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas inventore officia, at quae quo voluptatibus voluptas consequuntur rerum nostrum quod dolor deleniti non expedita est corrupti amet aliquid aspernatur optio.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mt-3">
+                        <div class="achiv_inner4">
+                            <img src="images/state4.jpg" alt="">
+                        </div>
+                    </div>
+                   
+                </div>
+                </div>
+
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    <div class="container">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, neque natus eligendi ratione, dolorem aliquam cupiditate enim voluptas sapiente suscipit eaque minus nulla sequi quasi a libero obcaecati, magni ipsa.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni amet officiis minima repudiandae nam, numquam voluptatem quasi nemo iure praesentium earum quis, et inventore veritatis in cupiditate excepturi, dolorem enim.
+
+
+                        <div class="row mt-3">
+                            <div class="col-lg-6 mt-3">
+                                <div class="achiv_inner_nationa1">
+                                        <img src="images/national1.jpg" alt="">   
+                                </div>
+                            </div>
+                            <div class="col-lg-6 conte_leve">
+                                <div class="achiv_col">
+                                    <h3></h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas inventore officia, at quae quo voluptatibus voluptas consequuntur rerum nostrum quod dolor deleniti non expedita est corrupti amet aliquid aspernatur optio.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 conte_leve">
+                                <div class="achiv_col">
+                                    <h3></h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas inventore officia, at quae quo voluptatibus voluptas consequuntur rerum nostrum quod dolor deleniti non expedita est corrupti amet aliquid aspernatur optio.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 mt-3">
+                                <div class="achiv_inner_nationa2">
+                                        <img src="images/national2.jpg" alt="">   
+                                </div>
+                            </div>
+                         
+        
+                            <div class="col-lg-6 mt-3">
+                                <div class="achiv_inner_nationa3">
+                                    <img src="images/national3.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 conte_leve">
+                                <div class="achiv_col">
+                                    <h3></h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas inventore officia, at quae quo voluptatibus voluptas consequuntur rerum nostrum quod dolor deleniti non expedita est corrupti amet aliquid aspernatur optio.</p>
+                                </div>
+                            </div>
+        
+                            <div class="col-lg-6 conte_leve">
+                                <div class="achiv_col">
+                                    <h3></h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas inventore officia, at quae quo voluptatibus voluptas consequuntur rerum nostrum quod dolor deleniti non expedita est corrupti amet aliquid aspernatur optio.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 mt-3">
+                                <div class="achiv_inner_nationa4">
+                                    <img src="images/national4.jpg" alt="">
+                                </div>
+                            </div>
+                            
+                        </div>
+                    
+                    
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+<section class="section gallery_sect" id="Gallery">
+    <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+                <h2>Gallery</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 m-auto">
+            <div class="key_procedures_slidr owl-carousel owl-theme" id="key_procedures_main">
+                            <div class="main_gallery_set">
+                                <img src="images/licence.jpg" alt="">
+                            </div>
+                            <div class="main_gallery_set">
+                                <img src="images/group1.jpg" alt="">
+                            </div>
+                            <div class="main_gallery_set">
+                                <img src="images/group2.jpg" alt="">
+                            </div>
+                            <div class="main_gallery_set">
+                                <img src="images/group3.jpg" alt="">
+                                   
+                            </div>
+
+                            <div class="main_gallery_set">
+                                <img src="images/group4.jpg" alt="">
+                                   
+                            </div>
+                            <div class="main_gallery_set">
+                                <img src="images/groupphoto.jpg" alt="">
+                                   
+                            </div>
+                            <div class=" main_gallery_set">
+                                <img src="images/group5.jpg" alt="">
+                            </div>
+                </div>
+            </div>
+        </div>
+        <!-- ////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+        <div class="row">
+            <div class="col-md-12">
+                <h2>News Paper Gallery</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 m-auto">
+            <div class="key_procedures_slidr owl-carousel owl-theme" id="key_procedures_main">
+                            <div class="main_gallery_set">
+                                <img src="images/newspaper.jpg" alt="">
+                            </div>
+                            <div class="main_gallery_set">
+                                <img src="images/newspaper2.jpg" alt="">
+                            </div>
+                            <div class="main_gallery_set">
+                                <img src="images/newpaper3.jpg" alt="">
+                            </div>
+                            <div class="main_gallery_set">
+                                <img src="images/newspaper.jpg" alt="">
+                                   
+                            </div>
+
+                            <div class="main_gallery_set">
+                                <img src="images/newspaper.jpg" alt="">
+                                   
+                            </div>
+                            <div class="main_gallery_set">
+                                <img src="images/newspaper.jpg" alt="">
+                                   
+                            </div>
+                            <div class=" main_gallery_set">
+                                <img src="images/newspaper.jpg" alt="">
+                            </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+</section>
+ 
+
+
+    <script type="text/javascript" src="js/jquery-3.6.4.slim.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/myscript.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+
+ 
+</body>
+</html>
